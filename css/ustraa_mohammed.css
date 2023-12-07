@@ -399,7 +399,9 @@ details div {
 .youtube-box-parent .youtube-box-child .item-1 img {
     height: 300px !important;
 }
-
+.youtube-box-parent .youtube-box-child .item-2{
+    width: 100% !important;
+}
 .youtube-box-parent .item-2 .item-2-child {
     flex-flow: row nowrap;
     justify-content: space-between !important;
