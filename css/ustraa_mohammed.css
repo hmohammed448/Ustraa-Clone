@@ -399,9 +399,11 @@ details div {
 .youtube-box-parent .youtube-box-child .item-1 img {
     height: 300px !important;
 }
-.youtube-box-parent .youtube-box-child .item-2{
+
+.youtube-box-parent .youtube-box-child .item-2 {
     width: 100% !important;
 }
+
 .youtube-box-parent .item-2 .item-2-child {
     flex-flow: row nowrap;
     justify-content: space-between !important;
@@ -437,7 +439,24 @@ details div {
 
 }
 
+.whatsapp-icon {
+    display: inline-block;
+    filter: drop-shadow(2px 2px 3px #d1d1d1);
+    position: fixed;
+    z-index: 500;
+    bottom: 40px;
+    right: 60px;
+}
+
 @media only screen and (max-width: 479px) {
+    .whatsapp-icon-2{
+        position: absolute !important;
+        display: inline-block !important;
+        /* top: 65px !important; */
+        right: 5px !important;
+        width: 30px !important;
+        bottom: 20px;
+    }
     .container {
         width: 100vw !important;
         padding-left: 0.5rem !important;
